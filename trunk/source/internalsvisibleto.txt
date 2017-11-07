@@ -1,0 +1,20 @@
+Source torsteroids.snk / torsteroids.publickey
+
+#######################################################################################3
+
+Microsoft (R) .NET Framework Strong Name Utility  Version 4.0.30319.17929
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Public key (hash algorithm: sha1):
+0024000004800000940000000602000000240000525341310004000001000100c5b5c16f69ad34
+a98a997c00dc6867a950f48b8b8973b02048659d7b25f0e9cce91ba331027d9b4beb80b0f28657
+59b56ea8895d016a991296523c18c135b13b22bf641b2c30abb37482ce36ecaca68e54373f5242
+3cfb09fa43db6a09160ea3a6edf5276fe75c79cb334bb6744b3a6db62091ff55ebea1f3534add0
+c931ba91
+
+Public key token is cac3916d12779f04
+
+#######################################################################################3
+
+[assembly: InternalsVisibleTo("XXXX.UnitTests, PublicKey=0024000004800000940000000602000000240000525341310004000001000100c5b5c16f69ad34a98a997c00dc6867a950f48b8b8973b02048659d7b25f0e9cce91ba331027d9b4beb80b0f2865759b56ea8895d016a991296523c18c135b13b22bf641b2c30abb37482ce36ecaca68e54373f52423cfb09fa43db6a09160ea3a6edf5276fe75c79cb334bb6744b3a6db62091ff55ebea1f3534add0c931ba91")]
+

@@ -1,0 +1,103 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modified BSD License", "Modified BSD License", "{204FAD80-4D23-46B4-976D-21468573B78E}"
+	ProjectSection(SolutionItems) = preProject
+		License.txt = License.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TorSteroids", "TorSteroids", "{E0BC3940-7F00-41CC-8D5E-37BE388EB9B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Tests", "Unit Tests", "{794EC0AC-AEB7-4526-8739-92DBB4CB164B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC6F7C07-0A69-4843-A2AD-B975C10A5B28}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\History.md = ..\..\History.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Common", "TorSteroids.Common\TorSteroids.Common.csproj", "{842A2E33-EAAA-433C-80A6-3DF815B748D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Common.UnitTests", "TorSteroids.Common.UnitTests\TorSteroids.Common.UnitTests.csproj", "{E115D9D4-9748-4A38-8659-52F982879DE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Storage", "TorSteroids.Storage\TorSteroids.Storage.csproj", "{9A729032-32FE-4C94-A676-469A56D813A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Storage.UnitTests", "TorSteroids.Storage.UnitTests\TorSteroids.Storage.UnitTests.csproj", "{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Storage.SqLite.Net", "TorSteroids.Storage.SqLite.Net\TorSteroids.Storage.SqLite.Net.csproj", "{9DF83897-3AD9-48C4-B32C-3CFA602305F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorSteroids.Storage.SqLite.Net.UnitTests", "TorSteroids.Storage.SqLite.Net.UnitTests\TorSteroids.Storage.SqLite.Net.UnitTests.csproj", "{E1879230-CCC6-417F-85AC-B92CBE6B5E54}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Debug|x86.ActiveCfg = Debug|x86
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Debug|x86.Build.0 = Debug|x86
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Release|x86.ActiveCfg = Release|x86
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2}.Release|x86.Build.0 = Release|x86
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Debug|x86.ActiveCfg = Debug|x86
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Debug|x86.Build.0 = Debug|x86
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Release|x86.ActiveCfg = Release|x86
+		{E115D9D4-9748-4A38-8659-52F982879DE9}.Release|x86.Build.0 = Release|x86
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Debug|x86.ActiveCfg = Debug|x86
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Debug|x86.Build.0 = Debug|x86
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Release|x86.ActiveCfg = Release|x86
+		{9A729032-32FE-4C94-A676-469A56D813A9}.Release|x86.Build.0 = Release|x86
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Debug|x86.ActiveCfg = Debug|x86
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Debug|x86.Build.0 = Debug|x86
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Release|x86.ActiveCfg = Release|x86
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3}.Release|x86.Build.0 = Release|x86
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Debug|x86.ActiveCfg = Debug|x86
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Debug|x86.Build.0 = Debug|x86
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Release|x86.ActiveCfg = Release|x86
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4}.Release|x86.Build.0 = Release|x86
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Debug|x86.ActiveCfg = Debug|x86
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Debug|x86.Build.0 = Debug|x86
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Release|x86.ActiveCfg = Release|x86
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{842A2E33-EAAA-433C-80A6-3DF815B748D2} = {E0BC3940-7F00-41CC-8D5E-37BE388EB9B7}
+		{9A729032-32FE-4C94-A676-469A56D813A9} = {E0BC3940-7F00-41CC-8D5E-37BE388EB9B7}
+		{9DF83897-3AD9-48C4-B32C-3CFA602305F4} = {E0BC3940-7F00-41CC-8D5E-37BE388EB9B7}
+		{E115D9D4-9748-4A38-8659-52F982879DE9} = {794EC0AC-AEB7-4526-8739-92DBB4CB164B}
+		{9CBDA159-AF8B-45B1-B63D-38B6A9E4D5B3} = {794EC0AC-AEB7-4526-8739-92DBB4CB164B}
+		{E1879230-CCC6-417F-85AC-B92CBE6B5E54} = {794EC0AC-AEB7-4526-8739-92DBB4CB164B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35;packages\Unity.Interception.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
