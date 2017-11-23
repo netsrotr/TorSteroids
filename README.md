@@ -9,3 +9,5 @@ Collection of tools and assemblies to support users write clean, stable .NET cod
     * often used extensions to String, Parameter null checking (throw ArgumentException, etc.)
     * support for [INotifyPropertyChanged](http://msdn.microsoft.com/en-us/library/System.ComponentModel.INotifyPropertyChanged.aspx) (Linq.Expression extensions)
 * Common.UnitTests (nunit test Suite for Common)
+
+[<img src="https://trvs-playground.visualstudio.com/_apis/public/build/definitions/edd093dd-fafd-46a4-b84d-db259a04b6c8/1/badge"/>](https://trvs-playground.visualstudio.com/TorSteroids/_build/index?definitionId=1)
