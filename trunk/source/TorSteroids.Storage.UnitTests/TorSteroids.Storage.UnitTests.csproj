@@ -147,6 +147,16 @@
     </None>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TorSteroids.Common\TorSteroids.Common.csproj">
+      <Project>{842a2e33-eaaa-433c-80a6-3df815b748d2}</Project>
+      <Name>TorSteroids.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TorSteroids.Storage\TorSteroids.Storage.csproj">
+      <Project>{9a729032-32fe-4c94-a676-469a56d813a9}</Project>
+      <Name>TorSteroids.Storage</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>call "$(ProjectDir)..\Libraries\prebuild_copy_platform_libs.cmd" $(PlatformName)</PreBuildEvent>
